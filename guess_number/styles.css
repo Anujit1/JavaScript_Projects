@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    font-family: "Delius Swash Caps", cursive;
+    background-color: #000;
+    color: blueviolet;
+}
+
+.navbar{
+    font-family: "Griffy", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    font-size: 3em;
+}
+
+.canvas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5em;
+    text-align: center;
+    font-size: 1.5em; 
+    gap: 1.8em;
+    letter-spacing: 0.2em;
+    word-spacing: 0.4em;   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+#guess-input{
+    height: 2em;
+    width: 50px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+#btn{
+    font-family: "Griffy", system-ui;
+    font-size: 1.2em;
+    background-color: #fff;
+    width: 200px;
+    height: 3em;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(208, 189, 225);
+}
+
+#message{
+    font-size: 1em;
+    word-spacing: 10px;
+}
+
+@media(max-width: 768px){
+    .navbar{
+        font-size: 2.5rem;
+    }
+
+    .canvas{
+        margin-top: 3em;
+        text-align: center;
+        font-size: 1.4em; 
+        gap: 1.5em;  
+        letter-spacing: 1px;
+        word-spacing: 5px; 
+    }
+
+    #message{
+        font-size: 1em;
+        word-spacing: 10px;
+    }
+
+}
+
+@media(max-width: 550px){
+    .navbar{
+        margin-top: 2em;
+        font-size: 2.2rem;
+    }
+
+    .canvas{
+        margin-top: 2.5em;
+        text-align: center;
+        font-size: 1.5em; 
+        gap: 2em; 
+        letter-spacing: 0.1em;
+        word-spacing: 0.2em; 
+    }
+
+    form{
+        gap: 2em;
+    }
+
+    #message{
+        font-size: 1em;
+        word-spacing: 0.2em;
+    }
+
+}
+
+
+@media(max-width: 400px){
+    .navbar{
+        margin-top: 1em;
+        font-size: 2em;
+    }
+
+    .canvas{
+        margin-top: 2em;
+        text-align: center;
+        font-size: 1.4em; 
+        gap: 1.5em; 
+        letter-spacing: 0.1em;
+        word-spacing: 0.5em; 
+    }
+
+    form{
+        gap: 1.8em;
+    }
+
+    #message{
+        font-size: 1em;
+        word-spacing: 0.8em;
+    }
+
+}

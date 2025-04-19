@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess The Number</title>
+
+        <!-- css -->
+         <link rel="stylesheet" href="styles.css">
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Griffy&display=swap" rel="stylesheet">
+
+    </head> 
+
+    <body>
+        <div class="navbar">
+            <nav>What's the number?</nav>
+        </div>
+        
+        <div class="canvas">
+
+            <h4 class="heading1">Try to Guess a number between 1 - 10.</h4>
+            
+            <h4 id="result"><span id="guess-count"></span></h4>
+            
+            <form>
+                <label for="guess-input"><input id="guess-input" required></label>
+
+                <p id="message"></p>
+
+                <input type="submit" id="btn" value="Place Guess">
+
+                <div class="guess-data">
+                    <h3>Previous guesses</h3>
+                    <h4><span id="data"></span></h4>
+                </div>
+
+            </form>
+        </div>
+        
+    </body>
+
+    <script src="script.js"></script>
+</html>
