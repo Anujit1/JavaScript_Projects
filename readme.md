@@ -13,3 +13,8 @@
 
 ## 3. Ticker - [Code File](https://github.com/Anujit1/JavaScript_Projects/tree/main/Clock)
 ![BMI Color webpage snapshot](project_Snapshot/Ticker_clock.png)
+
+---
+
+## 4. Number Guess - [Code File](https://github.com/Anujit1/JavaScript_Projects/tree/main/guess_number)
+![BMI Color webpage snapshot](project_Snapshot/Number_Guess.png)
