@@ -38,6 +38,48 @@ header {
     width: 100%;
 }
 
+.nav-link {
+    position: absolute;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.std-icon, .hover-icon {
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.std-icon {
+    opacity: 1;
+}
+
+.hover-icon {
+    opacity: 0;
+}
+
+.nav-icon:hover .std-icon {
+    opacity: 0;
+}
+
+.nav-icon:hover .hover-icon {
+    opacity: 1;
+}
+
+.nav-icon:focus {
+    outline: none;
+}
+  
+  
 
 .canvas{
     display: flex;
