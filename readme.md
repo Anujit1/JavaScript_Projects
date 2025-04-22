@@ -18,3 +18,13 @@ _Fork it and try it!_
 
 ## 4. Number Guess - [Code File](https://github.com/Anujit1/JavaScript_Projects/tree/main/guess_number)
 ![BMI Color webpage snapshot](project_Snapshot/Number_Guess.png)
+
+---
+
+## 5. Infinity Color - [Code File](https://github.com/Anujit1/JavaScript_Projects/tree/main/Display_Test)
+![BMI Color webpage snapshot](project_Snapshot/infinity-color.png)
+
+---
+
+## 5. Keyboard Check - [Code File](https://github.com/Anujit1/JavaScript_Projects/tree/main/keyboard_check)
+![BMI Color webpage snapshot](project_Snapshot/keyboard-check.png)
