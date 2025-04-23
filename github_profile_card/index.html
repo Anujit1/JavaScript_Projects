@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Profile Card</title>
+
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <!-- user name submit -->
+        <div class="user_input">
+            <form id="github_form">
+            <label for="user_name_input">GitHub User Name</label>
+            <input type="text" id="user_name_input" placeholder="Enter User Name" required>
+            <button type="submit">Submit</button>
+            </form>
+            <p id="message"></p>
+        </div>
+
+
+        <div class="wrapper">
+                <!-- card -->
+                <div class="card">
+    
+                    <div class="card_image">
+                        <img src="profile_image.jpg" alt="" id="profile_picture">
+                    </div>
+    
+                    <div class="card_name">
+                        <h2 id="user_name">Example Name</h2>
+                    </div>
+    
+                    <div class="card_about">
+                        <p id="followers">followers: </p>
+                        <button class = "copy_btn" onclick="copyText()">Copy Data</button>
+                    </div>
+    
+                </div>             
+        </div>
+    </body>
+
+    <!-- js -->
+    <script src="script.js"></script>
+</html>
