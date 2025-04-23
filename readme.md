@@ -26,5 +26,10 @@ _Fork it and try it!_
 
 ---
 
-## 5. Keyboard Check - [Code File](https://github.com/Anujit1/JavaScript_Projects/tree/main/keyboard_check)
+## 6. Keyboard Check - [Code File](https://github.com/Anujit1/JavaScript_Projects/tree/main/keyboard_check)
 ![BMI Color webpage snapshot](project_Snapshot/keyboard-check.png)
+
+---
+
+## 7. Github Profile Card - [Code File](https://github.com/Anujit1/JavaScript_Projects/tree/main/github_profile_card)
+![BMI Color webpage snapshot](project_Snapshot/GitHub_Profile_Card.png)

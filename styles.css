@@ -133,6 +133,7 @@ header {
 .project-info p {
     font-size: 1rem;
     color: whitesmoke;
+    text-align: center;
 }
 
 .project-link{
